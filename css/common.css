@@ -1,0 +1,402 @@
+/* 重置样式 */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 顶栏 */
+.slider {
+    width: 750rem;
+    height: 90rem;
+    background-color: rgba(246, 246, 246, .7);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+/* 顶栏logo */
+.slider-logo {
+    width: 177rem;
+    height: 100%;
+}
+
+.slider-logo a {
+    display: block;
+    width: 205rem;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo-img {
+    width: 177rem;
+    height: 55rem;
+    background-image: url(../img/common/slider-logo.png);
+    background-size: 177rem 55rem;
+    margin-top: 19rem;
+    margin-left: 22rem;
+    background-size: 100%;
+}
+
+/* 按钮 */
+.aside-btn {
+    background-image: url(../img/common/menu.png);
+    width: 40rem;
+    height: 27rem;
+    position: absolute;
+    right: 38rem;
+    top: 33rem;
+    background-size: 100%;
+}
+
+.aside-btn:hover .aside {
+    right: 0rem;
+}
+
+.aside {
+    width: 347rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    position: fixed;
+    right: -347rem;
+    top: 0;
+    overflow: auto;
+    transition: all .3s;
+    z-index: 999;
+}
+
+/* 箭头 */
+.cross {
+    background-image: url(../img/common/cross.png);
+    width: 40rem;
+    background-size: 100%;
+    height: 40rem;
+    background-size: 100%;
+    position: absolute;
+    top: 26rem;
+    right: 38rem;
+}
+
+/* 列表 */
+.aside-list {
+    margin-top: 140rem;
+}
+
+.aside-list .layer {
+    width: 272rem;
+    height: 56rem;
+    box-sizing: border-box;
+    color: #fff;
+    padding-left: 40rem;
+    padding-right: 40rem;
+    font-size: 28rem;
+    line-height: 56rem;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40rem;
+    margin-left: 40rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.aside-list .layer a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 272rem;
+}
+
+.aside-list .layer:hover {
+    background-color: white;
+    color: #14916a;
+    border-radius: 26rem 0 26rem 0;
+}
+
+/* 顶部banner */
+header {
+    height: 500rem;
+    background-size: 100%;
+}
+
+/* 底部 */
+footer {
+    background-color: rgb(243, 243, 243);
+    width: 750rem;
+    overflow: auto;
+    text-align: center;
+}
+
+/* 底部logo */
+.footer-logo {
+    margin-top: 50rem;
+    margin-left: 274rem;
+    height: 56rem;
+    width: 193rem;
+    background-size: 100%;
+    background-image: url(../img/common/footer-logo.png);
+    position: relative;
+}
+
+.footer-logo a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* 电话 */
+.footer-tel {
+    margin-top: 18rem;
+    height: 70rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(94, 94, 94, 0.4);
+    padding: 0 20rem;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 25rem;
+}
+
+.footer-tel-img {
+    background-image: url(../img/common/sprit.png);
+    width: 32rem;
+    background-size: 96rem 288rem;
+    height: 32rem;
+    background-position: 0 -168rem;
+    float: left;
+    margin-top: 16rem;
+    margin-right: 11rem;
+}
+
+.footer-tel-text {
+    font-size: 24rem;
+    color: #14916a;
+    line-height: 68rem;
+    max-width: 500rem;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.footer-tel::after,
+.footer-tel::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: rgb(243, 243, 243);
+    top: 18rem;
+    right: -2rem;
+    width: 4rem;
+    height: 30rem;
+}
+
+.footer-tel::before {
+    left: -2rem;
+}
+
+/* 列表 */
+.footer-info {
+    margin-left: 22rem;
+    margin-bottom: 40rem;
+}
+
+.footer-info li {
+    height: 45rem;
+}
+
+.footer-info .layer::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.footer-info-img {
+    width: 19rem;
+    height: 16rem;
+    background-image: url(../img/common/sprit.png);
+    background-size: 96rem 288rem;
+    float: left;
+    margin-right: 16rem;
+    margin-top: 18rem;
+}
+
+/* 文字 */
+.footer-info-text {
+    float: left;
+    max-width: 585rem;
+    font-size: 24rem;
+    line-height: 45rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+li:nth-child(1) .footer-info-img {
+    background-position: 0 -145rem;
+}
+
+li:nth-child(2) .footer-info-img {
+    background-position: -21rem -145rem;
+}
+
+li:nth-child(3) .footer-info-img {
+    background-position: -48rem -145rem;
+}
+
+li:nth-child(4) .footer-info-img {
+    background-position: -72rem -145rem;
+}
+
+/* 快速导航 */
+.footer-nav {
+    background-color: rgba(255, 255, 255, .78);
+    overflow: auto;
+}
+
+.footer-nav-title {
+    font-size: 28rem;
+    display: inline-block;
+    color: #000;
+    margin-top: 27rem;
+    margin-bottom: 34rem;
+    max-width: 400rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: -10rem;
+}
+
+/* 列表 */
+.footer-nav-lists {
+    font-size: 24rem;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 600rem;
+    margin: auto;
+    margin-bottom: 15rem;
+}
+
+.footer-nav-lists li {
+    width: 120rem;
+    margin-bottom: 25rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.footer-nav-lists li a:hover {
+    color: #14916a;
+    text-decoration: underline;
+}
+
+/* 标语 */
+.slogan {
+    background-image: url(../img/common/slogan.png);
+    width: 461rem;
+    height: 64rem;
+    background-size: 100%;
+    margin: auto;
+    margin-top: 17rem;
+    margin-bottom: 20rem;
+}
+
+/* 快捷入口 */
+.footer-icons {
+    overflow: auto;
+}
+
+/* 标题 */
+.icon-title {
+    margin-top: 32rem;
+    display: inline-block;
+    color: #000;
+    font-size: 28rem;
+    max-width: 400rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 图标 */
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 570rem;
+    margin: 36rem auto;
+}
+
+.icon {
+    width: 24rem;
+    height: 24rem;
+    background-size: 96rem 288rem;
+    background-image: url(../img/common/sprit.png);
+}
+
+.icon:nth-child(1) {
+    background-position: -48rem 0;
+}
+
+.icon:nth-child(2) {
+    background-position: -48rem -24rem;
+}
+
+.icon:nth-child(3) {
+    background-position: -48rem -48rem;
+}
+
+.icon:nth-child(4) {
+    background-position: -48rem -72rem;
+}
+
+.icon:nth-child(5) {
+    background-position: -48rem -96rem;
+}
+
+.icon:nth-child(6) {
+    background-position: -48rem -120rem;
+}
+
+/* 底部链接 */
+.footer-link {
+    color: #14916a;
+    font-size: 28rem;
+    max-width: 585rem;
+    margin-top: 15rem;
+    display: inline-block;
+    margin-bottom: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 公司 */
+.copy {
+    height: 81rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: #555;
+    line-height: 81rem;
+    font-size: 24rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 750rem;
+    box-sizing: border-box;
+    padding: 0 20rem;
+}
+
+.copy span {
+    margin-left: 10rem;
+    margin-right: 20rem;
+}

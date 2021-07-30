@@ -1,0 +1,305 @@
+/* 公共样式修改 */
+.aside-list li:nth-child(2) .layer {
+    background-color: white;
+    color: #14916a;
+    border-radius: 26rem 0 26rem 0;
+}
+
+header {
+    background-image: url(../img/tellUs/banner.jpg);
+    height: 339rem;
+}
+
+/* 内容 */
+.tell {
+    overflow: auto;
+    text-align: center;
+}
+
+/* 标题 */
+
+.tell-title span {
+    max-width: 585rem;
+    color: #333;
+    font-size: 36rem;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 47rem;
+}
+
+/* 副标题 */
+.tell-subtitle {
+    position: relative;
+    border-radius: 22rem 0 22rem 0;
+    border: solid 1rem #d3d3d3;
+    padding: 0 60rem;
+    display: inline-block;
+    height: 44rem;
+    margin-top: 8rem;
+    min-width: 386rem;
+    box-sizing: border-box;
+}
+
+.tell-subtitle span {
+    max-width: 585rem;
+    font-size: 20rem;
+    color: #aaaa;
+    line-height: 44rem;
+    display: inline-block;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tell-subtitle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -2px;
+    height: 3px;
+    width: 120rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(19, 145, 106);
+}
+
+/* 二维码 */
+.code {
+    background-color: rgba(19, 145, 106, .7);
+    display: flex;
+    height: 229rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35rem;
+}
+
+.code-img {
+    width: 135rem;
+    height: 135rem;
+    background-image: url(../img/tellUs/code.jpg);
+    background-size: 100%;
+    margin-right: 50rem;
+    border-radius: 4rem;
+}
+
+.code-text {
+    color: #f6f6f6;
+    font-size: 36rem;
+    text-align: center;
+    height: 135rem;
+}
+
+.code-des {
+    font-size: 24rem;
+    letter-spacing: 1rem;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 318rem;
+    margin-top: 10rem;
+    display: inline-block;
+}
+
+/* 标题 */
+.code-title {
+    margin-top: 20rem;
+}
+
+.code-title span {
+    margin: 0 12rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 318rem;
+    vertical-align: bottom;
+}
+
+.code-des a {
+    color: #f3f3f3;
+}
+
+/* 信息列表 */
+.tell-info {
+    padding-top: 33rem;
+    background-color: rgb(246, 246, 246);
+    padding-bottom: 23rem;
+}
+
+.tell-info .layer {
+    margin-bottom: 3rem;
+}
+
+.tell-info .layer::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.tell-info-title {
+    font-size: 24rem;
+    line-height: 44rem;
+    color: #333;
+    font-weight: bold;
+    margin-right: 24rem;
+    float: left;
+    position: relative;
+    margin-left: 23rem;
+}
+
+.tell-info-title::after {
+    content: ':';
+    display: block;
+    position: absolute;
+    top: -2rem;
+    right: -15rem;
+}
+
+.tell-info-des {
+    font-size: 24rem;
+    line-height: 44rem;
+    color: #333;
+    max-width: 630rem;
+    float: left;
+}
+
+li:last-of-type .tell-info-des {
+    margin-left: 23rem;
+}
+
+/* 表单 */
+.form {
+    padding-top: 60rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.form-title span {
+    max-width: 400rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 14rem;
+    vertical-align: bottom;
+}
+
+/* 标题 */
+.form-title {
+    font-size: 36rem;
+    color: #333;
+    margin-bottom: 40rem;
+}
+
+.item::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* 标题 */
+.form-key {
+    width: 120rem;
+    font-size: 24rem;
+    line-height: 70rem;
+    height: 70rem;
+    box-sizing: border-box;
+    float: left;
+    text-align: left;
+    margin-left: 43rem;
+    margin-right: 10rem;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 输入框外框 */
+.input {
+    float: left;
+    height: 70rem;
+    border: 1px solid #999;
+    width: 545rem;
+    text-align: left;
+    position: relative;
+    margin-bottom: 26rem;
+}
+
+.input input,
+select {
+    border: none;
+    outline: none;
+    height: 70rem;
+    font-size: 24rem;
+    line-height: 68rem;
+    color: #aaa;
+    padding-left: 20rem;
+    width: 543rem;
+    padding-right: 23rem;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+}
+
+::-webkit-input-placeholder {
+    color: #aaa;
+}
+
+.item:nth-of-type(3) .form-key::after,
+.item:nth-of-type(2) .form-key::after {
+    content: '*';
+    display: block;
+    position: absolute;
+    top: 0rem;
+    left: -10rem;
+    color: red;
+}
+
+select {
+    width: 100%;
+    color: #aaa;
+}
+
+.select-after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 16px 16px 0 16px;
+    border-color: rgba(54, 54, 54, .8) transparent transparent transparent;
+    position: absolute;
+    right: 18rem;
+    top: 29rem;
+    z-index: -1;
+}
+
+/* 提交按钮 */
+.submitInp {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0 88rem;
+    display: inline-block;
+    box-sizing: border-box;
+    width: auto;
+    border-radius: 30rem;
+    height: 60rem;
+    display: inline-block;
+    float: none;
+    margin-top: 26rem;
+    margin-bottom: 66rem;
+}
+
+input.submit {
+    display: inline-block;
+    width: auto;
+    line-height: 60rem;
+    height: 60rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 400rem;
+}

@@ -1,0 +1,283 @@
+/* 公共样式修改 */
+.aside-list li:nth-child(1) .layer {
+    background-color: white;
+    color: #14916a;
+    border-radius: 26rem 0 26rem 0;
+}
+
+header {
+    background-image: url(../img/home/banner.jpg);
+}
+
+/* 内容 */
+.welcome {
+    overflow: auto;
+    text-align: center;
+}
+
+/* 标题 */
+.wel-title span {
+    max-width: 585rem;
+    color: #333;
+    font-size: 36rem;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 42rem;
+}
+
+/* 副标题 */
+.wel-subtitle {
+    position: relative;
+    border-radius: 22rem 0 22rem 0;
+    border: solid 1rem #d3d3d3;
+    padding: 0 60rem;
+    display: inline-block;
+    height: 44rem;
+    margin-top: 8rem;
+}
+
+.wel-subtitle span {
+    max-width: 585rem;
+    font-size: 20rem;
+    color: #aaaa;
+    line-height: 44rem;
+    display: inline-block;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.wel-subtitle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -2px;
+    height: 3px;
+    width: 120rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(19, 145, 106);
+}
+
+/* 文本 */
+.wel-text {
+    width: 710rem;
+    font-size: 24rem;
+    line-height: 35rem;
+    margin: auto;
+    text-align: left;
+    color: #333;
+    margin-top: 32rem;
+}
+
+/* 图片 */
+.con::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.con {
+    width: 710rem;
+    margin: 20rem auto;
+}
+
+.con-img {
+    width: 287rem;
+    height: 191rem;
+    background-image: url(../img/home/con-img.jpg);
+    background-size: 100%;
+    float: left;
+}
+
+.con-tels {
+    float: left;
+    background-color: rgb(19, 145, 106);
+    color: white;
+    width: 421rem;
+    height: 191rem;
+    margin-left: 2rem;
+}
+
+/* 电话 */
+.con-tel {
+    height: 35rem;
+    margin-bottom: 8rem;
+}
+
+.con-tel::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.con-tels {
+    position: relative;
+    padding-top: 28rem;
+    box-sizing: border-box;
+}
+
+.con-tel-img {
+    height: 26rem;
+    width: 27rem;
+    background-image: url(../img/home/tel.png);
+    background-size: 100%;
+    float: left;
+    margin: 6rem 23rem 0 24rem;
+}
+
+.con-tel span {
+    font-size: 36rem;
+    line-height: 35rem;
+    float: left;
+    max-width: 300rem;
+    overflow: hidden;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Arial;
+}
+
+/* 按钮 */
+.con-btn {
+    width: 174rem;
+    height: 50rem;
+    padding: 0 39rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #14916a;
+    font-size: 24rem;
+    line-height: 50rem;
+    border-radius: 25rem 0 25rem 0;
+    position: absolute;
+    right: 29rem;
+    bottom: 24rem;
+    background-color: white;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.con-btn a {
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* 装修管家服务 */
+.serve {
+    overflow: auto;
+    text-align: center;
+}
+
+/* 标题 */
+.serve-title span {
+    max-width: 585rem;
+    color: #333;
+    font-size: 36rem;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 35rem;
+}
+
+/* 副标题 */
+
+.serve-subtitle {
+    position: relative;
+    border-radius: 22rem 0 22rem 0;
+    border: solid 1rem #d3d3d3;
+    padding: 0 60rem;
+    display: inline-block;
+    height: 44rem;
+    margin-top: 8rem;
+}
+
+.serve-subtitle span {
+    max-width: 585rem;
+    font-size: 20rem;
+    color: #aaaa;
+    line-height: 44rem;
+    display: inline-block;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.serve-subtitle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -2px;
+    height: 3px;
+    width: 120rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(19, 145, 106);
+}
+
+/* 图片 */
+.serve-lists {
+    display: flex;
+    justify-content: space-between;
+    width: 710rem;
+    margin: 39rem auto 28rem;
+    flex-wrap: wrap;
+}
+
+.serve-lists .layer {
+    width: 345rem;
+    height: 234rem;
+    background-size: 100%;
+    margin-bottom: 20rem;
+    position: relative;
+}
+
+.serve-lists li:nth-child(1) .layer {
+    background-image: url(../img/home/img1.jpg);
+}
+
+.serve-lists li:nth-child(2) .layer {
+    background-image: url(../img/home/img2.jpg);
+}
+
+.serve-lists li:nth-child(3) .layer {
+    background-image: url(../img/home/img3.jpg);
+}
+
+.serve-lists li:nth-child(4) .layer {
+    background-image: url(../img/home/img4.jpg);
+}
+
+/* 蒙版 */
+.cover {
+    width: 165rem;
+    height: 87rem;
+    color: white;
+    font-size: #fff;
+    font-size: 36rem;
+    line-height: 87rem;
+    background-color: rgba(0, 0, 0, .5);
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+li .layer:hover .cover {
+    opacity: 1;
+}

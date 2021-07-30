@@ -1,0 +1,232 @@
+/* 公共样式修改 */
+.aside-list li:nth-child(6) .layer {
+    background-color: white;
+    color: #14916a;
+    border-radius: 26rem 0 26rem 0;
+}
+
+header {
+    background-image: url(../img/news/banner.jpg);
+    height: 339rem;
+}
+
+/* 内容 */
+.news {
+    overflow: auto;
+    text-align: center;
+}
+
+/* 标题 */
+
+.news-title span {
+    max-width: 585rem;
+    color: #333;
+    font-size: 36rem;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 47rem;
+}
+
+/* 副标题 */
+.news-subtitle {
+    position: relative;
+    border-radius: 22rem 0 22rem 0;
+    border: solid 1rem #d3d3d3;
+    padding: 0 60rem;
+    display: inline-block;
+    height: 44rem;
+    margin-top: 8rem;
+    min-width: 386rem;
+    box-sizing: border-box;
+}
+
+.news-subtitle span {
+    max-width: 585rem;
+    font-size: 20rem;
+    color: #aaaa;
+    line-height: 44rem;
+    display: inline-block;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.news-subtitle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -2px;
+    height: 3px;
+    width: 120rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(19, 145, 106);
+}
+
+/* 按钮 */
+.news-btn {
+    width: 707rem;
+    margin: 33rem auto 33rem;
+}
+
+.btn a {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.news-btn::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.btn {
+    max-width: 172rem;
+    height: 60rem;
+    padding-left: 38rem;
+    padding-right: 50rem;
+    color: #fff;
+    background-color: rgb(19, 145, 106);
+    border-radius: 30rem 0 30rem 0;
+    font-size: 28rem;
+    line-height: 60rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    position: relative;
+}
+
+.btn:nth-child(2) {
+    float: right;
+}
+
+/* 列表 */
+.news-imgs {
+    margin-top: 15rem;
+}
+
+.news-imgs .layer {
+    width: 710rem;
+    margin: 20rem auto;
+    text-align: left;
+    height: 126rem;
+    position: relative;
+}
+
+.news-imgs .layer::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    position: absolute;
+    bottom: -20rem;
+}
+
+.news-imgs .layer::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.news-imgs li {
+    overflow: auto;
+}
+
+.new-img {
+    width: 196rem;
+    height: 126rem;
+    background-size: 100%;
+    float: left;
+}
+
+.news-imgs li:nth-child(1) .new-img {
+    background-image: url(../img/news/list-img1.jpg);
+}
+
+.news-imgs li:nth-child(2) .new-img {
+    background-image: url(../img/news/list-img2.jpg);
+}
+
+.news-imgs li:nth-child(3) .new-img {
+    background-image: url(../img/news/list-img3.jpg);
+}
+
+.news-imgs li:nth-child(4) .new-img {
+    background-image: url(../img/news/list-img4.jpg);
+}
+
+.news-imgs li:nth-child(5) .new-img {
+    background-image: url(../img/news/list-img5.jpg);
+}
+
+.news-imgs li:nth-child(6) .new-img {
+    background-image: url(../img/news/list-img6.jpg);
+}
+
+.news-imgs li:nth-child(7) .new-img {
+    background-image: url(../img/news/list-img7.jpg);
+}
+
+/* 文本 */
+.new-text {
+    width: 514rem;
+    float: left;
+    padding-left: 26rem;
+    box-sizing: border-box;
+    height: 126rem;
+}
+
+.text-title {
+    font-size: 28rem;
+    line-height: 40rem;
+    color: #333;
+    width: 456rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: -5rem;
+}
+
+.text-time {
+    color: #999;
+    font-size: 20rem;
+    margin-top: 24rem;
+}
+
+.text-time span:nth-child(2) {
+    overflow: hidden;
+    max-width: 155rem;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+}
+
+/* 跳转 */
+.news-imgs a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+}
+
+.news-imgs a:hover~.new-text {
+    background-color: rgb(209, 209, 209);
+}
+
+.news-imgs a:hover~.new-text .text-title {
+    color: #14916a;
+}

@@ -1,0 +1,243 @@
+/* 公共样式修改 */
+.aside-list li:nth-child(2) .layer {
+    background-color: white;
+    color: #14916a;
+    border-radius: 26rem 0 26rem 0;
+}
+
+header {
+    background-image: url(../img/aboutUs/banner.jpg);
+    height: 339rem;
+}
+
+/* 内容 */
+.intro {
+    overflow: auto;
+    text-align: center;
+}
+
+/* 标题 */
+
+.intro-title span {
+    max-width: 585rem;
+    color: #333;
+    font-size: 36rem;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 47rem;
+}
+
+/* 副标题 */
+.intro-subtitle {
+    position: relative;
+    border-radius: 22rem 0 22rem 0;
+    border: solid 1rem #d3d3d3;
+    padding: 0 60rem;
+    display: inline-block;
+    height: 44rem;
+    margin-top: 8rem;
+    min-width: 386rem;
+    box-sizing: border-box;
+}
+
+.intro-subtitle span {
+    max-width: 585rem;
+    font-size: 20rem;
+    color: #aaaa;
+    line-height: 44rem;
+    display: inline-block;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.intro-subtitle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -2px;
+    height: 3px;
+    width: 120rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(19, 145, 106);
+}
+
+/* 图片 */
+.intro-bg {
+    width: 750rem;
+    height: 296rem;
+    background: url(../img/aboutUs/bg1.jpg) 100%;
+    background-size: 100%;
+    margin-top: 35rem;
+}
+
+.intro-cover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+/* 文本 */
+.intro-text {
+    width: 750rem;
+    box-sizing: border-box;
+    font-size: 24rem;
+    line-height: 36rem;
+    margin: auto;
+    text-align: left;
+    color: #000;
+    padding: 30rem 20rem 115rem;
+    position: relative;
+    background-color: rgb(246, 246, 246);
+}
+
+.intro-btn {
+    max-width: 172rem;
+    box-sizing: border-box;
+    height: 60rem;
+    position: absolute;
+    right: 20rem;
+    bottom: 19rem;
+    background-color: #14916a;
+    color: #fff;
+    display: inline-block;
+    padding: 0 30rem;
+    font-size: 28rem;
+    line-height: 60rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-radius: 30rem 0 30rem 0;
+}
+
+/* 内容 */
+.team {
+    overflow: auto;
+    text-align: center;
+}
+
+/* 标题 */
+.team-title span {
+    max-width: 585rem;
+    color: #333;
+    font-size: 36rem;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 45rem;
+}
+
+/* 副标题 */
+.team-subtitle {
+    position: relative;
+    border-radius: 22rem 0 22rem 0;
+    border: solid 1rem #d3d3d3;
+    padding: 0 60rem;
+    display: inline-block;
+    height: 44rem;
+    margin-top: 8rem;
+}
+
+.team-subtitle span {
+    max-width: 585rem;
+    font-size: 20rem;
+    color: #aaaa;
+    line-height: 44rem;
+    display: inline-block;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.team-subtitle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -2px;
+    height: 3px;
+    width: 120rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(19, 145, 106);
+}
+
+/* 图片 */
+.team-bg {
+    margin-top: 34rem;
+    width: 750rem;
+    height: 296rem;
+    box-shadow: 0px 0px 22px 0px rgba(44, 150, 117, 0.15);
+    background-image: url(../img/aboutUs/bg2.jpg);
+    background-position: center;
+    background-size: 764rem 300rem;
+    position: relative;
+}
+
+.arrow {
+    height: 43rem;
+    width: 43rem;
+    background-image: url(../img/common/sprit.png);
+    background-size: 96rem 288rem;
+    position: absolute;
+    top: 123rem
+}
+
+.arrow:nth-child(1) {
+    background-position: -48rem -215rem;
+    left: 20rem;
+}
+
+.arrow:nth-child(2) {
+    background-position: 0rem -215rem;
+    right: 20rem;
+}
+
+/* 图片下文本 */
+.team-text {
+    margin-top: 13rem;
+    overflow: hidden;
+    line-height: 30rem;
+}
+
+.team-text * {
+    max-width: 270rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.team-text::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.text-ch {
+    font-size: 28rem;
+    color: #000;
+    float: left;
+    margin-left: 22rem;
+    line-height: 40rem;
+    height: 40rem;
+}
+
+.text-en {
+    font-size: 20rem;
+    color: #666;
+    float: right;
+    margin-right: 23rem;
+    line-height: 40rem;
+    height: 40rem;
+    box-sizing: border-box;
+    margin-top: 5rem;
+    margin-bottom: 53rem;
+}
